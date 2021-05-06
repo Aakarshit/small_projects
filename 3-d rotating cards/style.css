@@ -1,0 +1,32 @@
+div{
+    height:300px;
+    width: 300px;
+    
+    margin:0px auto;
+}
+.side-a{
+background-color: tomato;
+z-index: 1;
+}
+.side-b{
+    background-color: rosybrown;
+    transform: rotateY(180deg);
+}
+section{
+    position: relative;
+    perspective: 800px;
+    
+}
+.side-a,
+.side-b{  
+    position: absolute;
+    backface-visibility: hidden;
+}
+.wrapper{
+    transition: all 1s;
+    transform-style: preserve-3d;
+}
+.wrapper:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}

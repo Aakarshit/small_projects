@@ -1,0 +1,15 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "this is node server for my website",
+  "main": "index.js",
+  "scripts": {
+    "devStart":"nodemon index.js"
+  },
+  "author": "akii",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^4.0.1"
+  }
+}

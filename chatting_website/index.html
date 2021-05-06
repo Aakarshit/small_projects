@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatting app</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="phone.css">
+
+    <script
+      src="https://kit.fontawesome.com/dd4bef87e8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="logo">
+      <img src="images/chat1.png" alt="sorry for inconvineince" />
+      <h1>Welcome to Anime Discuss</h1>
+    </nav>
+    <div class="container" >
+      <!-- <div class="message right">me: hey how are you?</div>
+      <div class="message left">rohan: Bhai i am fine. How about you?</div> -->
+    </div>
+
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageInput" id="messageInput" />
+        <button class="btn"><i class="fa fa-send"></i></button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(#ffa200, #ffe1a8);
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.container {
+  border: 1px solid black;
+  border-radius: 10px;;
+  background-image: url("images/6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.logo img {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  color: black;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.container::before{
+  opacity: 0.5;
+}
+.message {
+  background-color: black;
+  width:24%;
+  border:1px solid black;
+  margin: 10px 3px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  color: white;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+.send {
+  padding: 3px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+input {
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+}
+#messageInput {
+  height: 20%;
+  width: 63%;
+}
+.btn {
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  background: none;
+}
